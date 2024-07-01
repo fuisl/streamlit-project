@@ -5,8 +5,8 @@ DNN model for dog cat classification
 import cv2
 import numpy as np
 
-MODEL = "model/MobileNetSSD_deploy.caffemodel"
-PROTOTXT = "model/MobileNetSSD_deploy.prototxt.txt"
+MODEL = "models/MobileNetSSD_deploy.caffemodel"
+PROTOTXT = "models/MobileNetSSD_deploy.prototxt.txt"
 
 
 def process_img(img):
